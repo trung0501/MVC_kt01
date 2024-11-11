@@ -1,0 +1,51 @@
+@model Bàikt1.Models.HoaDon
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>HoaDon</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SoHD)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SoHD)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TenH)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TenH)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NgayDat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NgayDat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SL)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SL)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DonGia)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DonGia)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MaKH)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MaKH)
+        </dd>
+    </dl>
+</div>
+<div>
